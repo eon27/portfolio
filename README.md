@@ -7,4 +7,5 @@ Free time projects:
 * TerminalMaze
 
 Programme in Computing Science:
-* Graphics
+* OpenGL 3d renderer
+* Haskell interpreter
