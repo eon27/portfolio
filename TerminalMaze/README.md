@@ -3,6 +3,8 @@ A game where you traverse a generated maze with limited vision.
 
 The game uses escape code graphics in the terminal.
 
+![Image](./Screenshot.png)
+
 ## Credits
 Maze generation done with [mazegen.hpp](/mazegen.hpp) from [aleksandrbazhin/mazegen](https://github.com/aleksandrbazhin/mazegen/blob/master)
 

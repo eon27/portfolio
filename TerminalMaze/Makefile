@@ -2,7 +2,7 @@ CXX = g++
 WFLAGS  = -Wall -std=c++11 -Wformat -Wno-unknown-pragmas
 	
 mazegame: game.o maze.o rendering.o
-	$(CXX) game.o maze.o rendering.o tile.o -o mazegame
+	$(CXX) game.o maze.o rendering.o tile.o -o build/mazegame
 
 game.o: rendering.o maze.o game.cpp
 	$(CXX) -c game.cpp
