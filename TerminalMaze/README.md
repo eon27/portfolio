@@ -5,6 +5,9 @@ The game uses escape code graphics in the terminal.
 
 ![Image](./Screenshot.png)
 
+The goal of the game is to move the bright green dot (player) to the white dot (goal).  
+The character (bright green dot) is moved with 'w', 'a' 's', 'd'. 
+
 ## Credits
 Maze generation done with [mazegen.hpp](/mazegen.hpp) from [aleksandrbazhin/mazegen](https://github.com/aleksandrbazhin/mazegen/blob/master)
 
@@ -27,3 +30,6 @@ Standard is 20x20 maze but can be changed with commandline arguments
         size > 2
       special_gamemode:
         idle
+
+### Game modes
+The program has two modes. One where the player controls the character and one where the character searches the maze on their own.
