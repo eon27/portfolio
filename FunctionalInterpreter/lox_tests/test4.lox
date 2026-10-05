@@ -1,0 +1,21 @@
+print "TEST_04_BASIC_VAR";
+print "Should be 5";
+var a = 5; print a;
+print "Should be 3";
+a = 3; print a;
+print "Should be 3";
+var b = a; print b;
+print "Should be 12";
+print b + 9;
+print "Should be 6";
+var c = a + b; print c;
+
+print "Should be 9";
+print a = 9;
+print "Should be 9";
+print a;
+print "Should be hello";
+a = "hello"; print a;
+print "Should be nil";
+var d;
+print d;

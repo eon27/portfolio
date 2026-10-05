@@ -1,0 +1,12 @@
+# Ignore object and dependency files
+*.o
+*.hi
+
+# Ignore executables 
+*.exe
+
+# Ignore editor and IDE config files
+.vscode/
+.idea/
+*.swp
+

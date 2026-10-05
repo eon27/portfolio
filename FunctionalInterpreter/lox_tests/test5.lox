@@ -1,0 +1,10 @@
+print "TEST_05_If_Truth";
+print "Should print 1 to 7 good and no bad";
+if (false) print "bad"; else print "1";
+if (nil)   print "bad"; else print "2";
+if (true) print "3";
+if ("")   print "4";
+if (-3)   print "5";
+if (0)    print "6";
+var a = "";
+if (a) print "7";

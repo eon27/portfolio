@@ -1,0 +1,17 @@
+print "TEST_03_TRUTH";
+print "Should be true";
+print !false;
+print "Should be false";
+print !true;
+print "Should be false";
+print !!!!!!!true;
+print "Should be true";
+print 5 == 5;
+print "Should be false";
+print 5 != 5;
+print "Should be true";
+print 3 < 5;
+print "Should be 5";
+print 5 or 3;
+print "Should be 3";
+print 5 and 3;

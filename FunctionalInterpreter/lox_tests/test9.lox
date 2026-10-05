@@ -1,0 +1,12 @@
+print "TEST_09";
+print "Should print hejhej";
+print "hej" + "hej";
+print "Should print 5 and not crash";
+print 5 or (6 / "hello");
+print "Should print false and not crash";
+print false and (6 / "hello");
+var a = 1;
+print "Should print 5";
+print 5 or (a = 2);
+print "Should print 1";
+print a;

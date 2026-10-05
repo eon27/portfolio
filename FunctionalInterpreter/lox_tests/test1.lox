@@ -1,0 +1,10 @@
+print "TEST_01_PRINTS";
+print nil;
+print true;
+print false;
+print 3;
+print -3;
+print 3.0;
+print 5.7;
+print "hello";
+print "";

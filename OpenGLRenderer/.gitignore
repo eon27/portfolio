@@ -1,0 +1,31 @@
+# Ignore object and dependency files
+*.o
+*.obj
+*.d
+
+# Ignore static and shared libraries
+*.a
+*.so
+*.so.*
+
+# Ignore Linux executables (no extension, typically in build dirs)
+build/
+bin/
+out/
+*.out
+*.elf
+*.exe
+
+# Ignore general build artifacts
+*.log
+*.tmp
+*.cache
+*.pid
+
+# Ignore editor and IDE config files
+.vscode/
+.idea/
+*.swp
+
+project1/project1
+project-part2gui-ImGui

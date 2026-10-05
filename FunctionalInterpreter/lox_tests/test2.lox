@@ -1,0 +1,17 @@
+print "TEST_02_EXPR";
+print "Should be 3";
+print (3);
+print "Should be 8";
+print 3 + 5;
+print "Should be -2";
+print 3 - 5;
+print "Should be 15";
+print 3 * 5;
+print "Should be 0.6";
+print 3 / 5;
+print "Should be 27";
+print 3*3*3;
+print "Should be 12";
+print 3+3*3;
+print "Should be 171";
+print (3 + 3 + 3) + 3 * 3 * 3 * (3 + 3);
