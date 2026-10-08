@@ -25,11 +25,10 @@ Standard is 20x20 maze but can be changed with commandline arguments
 
 ### Running:
     
-    ./mazegame [size] -[special_gamemode]
-      size:
-        size > 2
-      special_gamemode:
-        idle
+    ./mazegame [size]
+      (size: size > 2)
+      
+    ./mazegame [size] -idle
 
 ### Game modes
-The program has two modes. One where the player controls the character and one where the character searches the maze on their own.
+The program has two modes. One where the player controls the character (./mazegame [size]) and one where the character searches the maze on their own (./mazegame [size] -idle).
